@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.buycontainer {
+  background-color: #fff;
+  width: 1035px;
+  height: 745px;
+  margin-top: 80px;
+  margin-left: 80px;
+  margin-bottom: 120px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.buytext {
+  font-family: "Nanum Gothic", sans-serif;
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 950px;
+  height: 80px;
+}
+.buytext h3 {
+  padding-top: 15px;
+}
+.buygiveup {
+  border: 1px solid #dadada;
+  width: 950px;
+  height: 520px;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+.buybutton {
+  margin-left: 20px;
+}
+.buybutton1 {
+  margin-left: 20px;
+}
+.buybutton2 {
+  margin-left: 20px;
+  width: 860px;
+  margin-top: 10px;
+}
+.buybutton input {
+  width: 420px;
+  height: 50px;
+  background-color: #fafafa;
+  color: black;
+  padding-left: 10px;
+  font-size: 19px !important;
+  margin-top: 7px;
+  border: 1px solid #dadada;
+  border-radius: 4px;
+}
+.buybutton h5 {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 13px;
+  color: #adadad;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+.buybutton1 input {
+  width: 420px;
+  height: 50px;
+  background-color: #fafafa;
+  color: black;
+  padding-left: 10px;
+  font-size: 19px !important;
+  margin-top: 7px;
+  border: 1px solid #dadada;
+  border-radius: 4px;
+}
+.buybutton1 h5 {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 13px;
+  color: #adadad;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+.buybutton2 input {
+  width: 420px;
+  height: 50px;
+  background-color: #fafafa;
+  color: black;
+  padding-left: 10px;
+  font-size: 19px !important;
+  margin-top: 7px;
+  border: 1px solid #dadada;
+  border-radius: 4px;
+}
+.buybutton2 h5 {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 13px;
+  color: #adadad;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+.allbuybutton {
+  display: flex;
+  margin-top: 8px;
+}
+.buyhr {
+  margin-top: 40px;
+  width: 860px;
+  margin-left: 20px;
+}
+.buytextsonline {
+  width: 220px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.buytextsonline h3 {
+  font-family: "Inter", sans-serif;
+}
+.buyonlinebutton {
+  width: 600px;
+  height: 110px;
+  padding-top: 20px;
+  margin-left: -10px;
+  display: flex;
+}
+.buyonlinebutton button {
+  border: 1px solid #dadada;
+  width: 20%;
+  height: 70px;
+  margin-left: 30px;
+  border-radius: 8px;
+  background: #fafafa;
+  color: #adadad;
+}
+.finishbutton button {
+  width: 27%;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 19px;
+  color: white;
+  background-color: #344854;
+  margin-left: 680px;
+}
+.finishbutton {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.buyallcontainer {
+  display: flex;
+}
+.buybrand {
+  background-color: #fff;
+  margin-top: 80px;
+  margin-left: 20px;
+  width: 360px;
+  height: 410px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.brandprice h2 span {
+  margin-left: 50px;
+}
+.brandprice h2 {
+  font-family: "Nanum Gothic", sans-serif;
+  color: #fff;
+  margin-left: 20px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.brandprice {
+  background-color: black;
+  height: 50px;
+}
+.brandwindows {
+  border: 1px solid #dadada;
+  width: 320px;
+  height: 330px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.brandwindows h3 {
+  color: #adadad;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 17px;
+  margin-left: 17px;
+}
+.brandwindows h3 span {
+  color: black !important;
+}
+.brandwindows hr {
+  width: 280px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.brandwinimages {
+  object-fit: cover;
+  display: flex;
+  width: 240px;
+  height: 100px;
+}
+.brandwinimages h3 {
+  width: 200px;
+}
+.brandwincolor {
+  width: 120px;
+  display: flex;
+  margin-top: 20px;
+}
+.brandwincolor h4 {
+  font-size: 12px;
+  line-height: 18px;
+  color: #adadad;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+.brandwincolor p {
+  font-family: "Open Sans", sans-serif;
+  color: black !important;
+  margin-left: 200px;
+  font-size: 15px;
+}
+.brandwincolor hr {
+  width: 280px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.brandwincolor h4 p {
+  color: black;
+}
+.brandwincolors {
+  width: 120px;
+  display: flex;
+  margin-top: 20px;
+}
+.brandwincolors h4 {
+  font-size: 12px;
+  line-height: 18px;
+  color: #adadad;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+.brandwincolors p {
+  font-family: "Open Sans", sans-serif;
+  color: black !important;
+  margin-left: 190px;
+  font-size: 15px;
+}
